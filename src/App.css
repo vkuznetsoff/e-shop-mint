@@ -1,0 +1,13 @@
+.app {
+  background-image: url(../src/assets/img/bg.png);
+}
+
+.app__opacity {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-center;
+}

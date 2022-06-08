@@ -1,0 +1,100 @@
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    height: 100%;
+    width: 300px;
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    background: #fff;
+    box-shadow: 5px 10px 15px  lightgrey;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 10px grey;
+    transform: scale(102%);
+    
+}
+
+.card__image {
+    height: 200px;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card__image img {
+    display: block;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.card__body {
+    padding: 15px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__title {
+    text-align: center;
+    font-size: 16px;
+    flex: 1.5;
+    font-weight: 600;
+}
+
+.card__text {
+    text-align: center;
+    font-size: 16px;
+    flex: 1;
+    font-weight: 300;
+}
+
+.card__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+
+.card__cost {
+    font-size: 24px;
+    color: #4a60d7;
+    font-weight: 500;
+}
+
+.card__button {
+    text-align: center;
+    display: inline-flex;
+    padding: 5px;
+    background: #4a60d7;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    width: 100px;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.card__button:hover {
+    filter: brightness(130%);
+    cursor: pointer;
+}
+
+.card__quantity {
+    display: flex;
+    width: 30px;
+    border: none
+}
+
+.quantity {
+    margin: 0 10px;
+}
+
+.quantity__button {
+   cursor: pointer;
+}
